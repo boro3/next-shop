@@ -14,7 +14,7 @@ export default styled.button`
     margin:0.2rem 0.5rem 0.5rem 0; 
     transition:all 0.3s ease-in-out;
 &:hover{
-    background:${props => props.cart ? 'var(--mainYellow)' : 'var(--lightBlue)'};
+    background:${props => props.cart ? 'var(--mainBlue)' : 'var(--lightBlue)'};
     color:var(--mainBlue);
 }
 &:focus{
